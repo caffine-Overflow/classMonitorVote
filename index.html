@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Monitor Vote</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+</head>
+<body>
+    <form id="classMonitor">
+        <div class="heading">
+            <h1>Class Monitor Vote</h1>
+        <span class="totalVote">Total Vote </span>
+        </div>
+        
+      
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName">
+
+        <select name="choose" id="choose" >
+            <option value="option1">Suhana</option>
+            <option value="option2">Deepak</option>
+            <option value="option3">Abhi</option>
+        </select>
+        
+        <button type="submit">vote</button>
+
+    </form>
+     <ul class="voteList"></ul>
+</body>
+<script src="script.js"></script>
+</html>
